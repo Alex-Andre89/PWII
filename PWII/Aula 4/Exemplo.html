@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Formulário em HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form>
+        <!--Caixas de texto-->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="primeiroNome" name="primeiroNome" autofocus placeholder="Digite apenas o primeiro nome..."><br>
+
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="segundoNome" name="segundoNome" placeholder="Digite apenas o último nome..."><br><br>
+        
+        <!--Caixas do tipo Radio-->
+        <label for="generos">Sexo:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="outros" name="genero" value="outros">
+        <label for="outros">Outros</label><br><br>
+
+        <!--Caixas de seleção-->
+        <label for="veiculos">Veículos:</label><br>
+        <input type="checkbox" id="veiculo1" name="veiculo1" value="bicicleta">
+        <label for="veiculo1"> Eu tenho uma bicicleta</label><br>
+        <input type="checkbox" id="veiculo2" name="veiculo2" value="Carro">
+        <label for="veiculo2"> Eu tenho um carro</label><br>
+        <input type="checkbox" id="veiculo3" name="veiculo3" value="Barco">
+        <label for="veiculo3"> Eu tenho um barco</label><br><br>
+
+        <!--Lista suspença ou Dropdown-->
+        <label for="carros">Qual a sua marcar de carro preferida?</label><br><br>
+        <select id="carros" name="carros">
+            <option value="volvo">Honda</option>
+            <option value="gm">GM</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+            <option value="ford">Ford</option>
+            <option value="volks">Volkswagem</option>
+            <option value="hyundai">Hyundai</option>
+        </select><br><br>
+
+        <!--Area de texto de mais de uma linha-->
+        <label for="opiniao">Comente:</label><br>
+        <textarea name="menssagem" id="menssagem" rows="10" cols="30" placeholder="Queremos saber sua opinião..."></textarea><br><br>
+      
+        <!--Botões-->
+        <input type="submit" value="Enviar dados">
+        <input type="reset" value="Cancelar">
+
+
+    </form>
+</body>
+</html>

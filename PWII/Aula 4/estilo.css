@@ -1,0 +1,21 @@
+input[type=text] {
+
+    width: 250px;
+    padding: 6px;
+    border: 1px solid dimgrey;
+    border-radius: 4px;
+    margin: 6px 0;
+
+}
+
+input[type=text]:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+textarea:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+#primeiroNome, #segundoNome, #menssagem {
+    font-style: italic;
+}
