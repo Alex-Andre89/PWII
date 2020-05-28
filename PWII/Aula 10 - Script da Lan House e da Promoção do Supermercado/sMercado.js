@@ -14,6 +14,6 @@ function Promocao() {
     outPromocao.textContent = produto + " - Promoção: Leve 3 por R$: " + total.toFixed(2);
     outPrecoTerceiro.textContent = "O 3º produto custa apenas R$: " + terceiro.toFixed(2);
   }
- 
+  
   var btVerificar = document.getElementById("btVer");
   btVerificar.addEventListener("click", Promocao);
